@@ -47,11 +47,11 @@ header:hover::before{
 
 .logo{
     color: #fff;
-    font-size: 25px;
+    font-size: 40px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     cursor: default;
-    margin-left: 70px;
+    margin-left: 90px;
 }
 
 .logo label{
@@ -60,7 +60,7 @@ header:hover::before{
 
 .imglogo{
     position: absolute;
-    width: 60px;
+    width: 75px;
     border-radius: 45px;
 }
 
@@ -101,6 +101,27 @@ header:hover::before{
 @media only screen and (max-width:1100px) {
     header{
         padding: 0 30px;
+    }
+    footer div fieldset p {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    footer div fieldset p a {
+        text-decoration: none;
+        color: #fefefe;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    footer div fieldset p a img {
+        width: 45px;
+        border-radius: 50px;
+        margin: 5px;
+    }
+    footer div fieldset p a label{
+        position: fixed;
+        margin-top: 15px;
     }
 }
 
@@ -207,17 +228,15 @@ footer div fieldset legend {
 }
 
 footer div fieldset p {
-    color: #11101b;
+    color: rgb(180, 38, 180);
     font-size: large;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 footer div fieldset ::selection {
     background-color:  rgb(237, 42, 120);
 }
 footer div fieldset p a {
-    display: inline-block;
-    margin-bottom: 10px;
     text-decoration: none;
     color: #fefefe;
 }
@@ -225,8 +244,10 @@ footer div fieldset p a:hover{
     color: rgb(237, 42, 120);
 }
 footer div fieldset p a img {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    margin-right: 5px;
+    width: 45px;
+    border-radius: 50px;
+    margin: 5px;
+}
+footer div fieldset p a label{
+    position: relative;
 }
