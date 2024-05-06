@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imges/projex_apple.jpeg"/>
+    <title>Projex</title>
+</head>
+<body>
+    <header class="header">
+        <img src="imges/projex_apple.jpeg" alt="logo" class="imglogo">
+        <a href="#" class="logo">Projex <label>Eg</label></a>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="Features.html">Features</a>
+                </li>
+                <li>
+                    <a href="About.html">About</a>
+                </li>
+                <li>
+                    <a href="Contact.html" class="active">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+           
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <fieldset>
+                <legend>About us</legend>
+                <p>"Hey guys! Looking for something to make your innovation process easier? With PROJEX, you'll find everything you need! We provide the space and guidance for you to bring your ideas to life quickly and with the best quality. And guess what? We've got special offers you won't find anywhere else! Our team of engineers understands the job and knows your needs. Our goal is to make the journey easy for you and get you to success with our simple and innovative approach."</p>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p>
+                    <a href="https://www.facebook.com/profile.php?id=61558677549893"><img src="imges/facebook.png" alt="facebook"> <label>Projex Eg</label></a>
+                    <a href="https://www.instagram.com/projexeg00/" dir="rtl" style="float: right;"><img src="imges/instagram.jpeg" alt="instagram"> <label>projexeg00</label></a>
+                    <br>
+                    <a href="https://github.com/ProjexEg" style="margin-left: 35%;"><img src="imges/github.png" alt="github"> <label>ProjexEg</label></a>
+                    <br>
+                    <a href="index.html"><img src="imges/projex_apple.jpeg" alt="projex_apple"> <label>Projex Eg</label></a>
+                    <a href="mailto:+projexeg00@gmail.com" dir="rtl"  style="float: right;"><img src="imges/gmail.png" alt="gmail"> <label>projexeg00@gmail.com</label></a>
+                </p>
+            </fieldset>
+        </div>
+    </footer>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function(){
+            navBar = document.querySelector(".navbar");
+            navBar.classList.toggle("active");
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+    var contentHeight = document.body.offsetHeight;
+    var windowHeight = window.innerHeight;
+    var footer = document.querySelector('footer');
+
+    if (contentHeight > windowHeight) {
+        footer.style.position = 'static';
+    } else {
+        footer.style.position = 'fixed';
+    }
+});
+
+    </script>
+</body>
+</html>
