@@ -1,0 +1,21 @@
+main #space{
+    width: 100%;
+    height: 50vh;
+}
+
+main div fieldset {
+    border: 3px double rgb(237, 42, 120);
+    padding: 20px;
+    width: 60%;
+}
+main div fieldset legend {
+    color: rgb(237, 42, 120);
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+main div fieldset p a img {
+    width: 80px;
+    border-radius: 45px;
+    margin: 15px;
+}
