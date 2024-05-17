@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_About.css">
     <link rel="icon" href="imges/projex_apple.jpeg"/>
     <title>Projex</title>
 </head>
@@ -35,7 +36,38 @@
     </header>
 
     <main>
-
+        <center>
+            <div id="con1">
+                <p>Projex Eg will help you to make your project simple and amazing in fast time with good quality </p>
+            </div>
+            <p id="p">🚀💥🔥💫</p>
+            <br><br><br><br><br>
+            <p id="p">👇</p>
+        </center>
+        <div id="con2">
+            <p>👉 3D Design</p>
+            <div id="img1"><img src="imges/3d1.jpg"><img src="imges/3d3.png"><img src="imges/3d2.jpg"></div>
+            <p>👉 PCB Design</p>
+            <div id="img1"><img src="imges/pcb1.webp"><img src="imges/pcb2.webp"><img src="imges/w5.jpg"></div>
+            <p>👉 Assembling Devices</p>
+            <div id="img1"><img src="imges/as1.jpg"><img src="imges/w2.jpg"><img src="imges/as3.jpg"></div>
+            <p>👉 Arduino Project</p>
+            <div id="img2"><img src="imges/ar1.webp"><img src="imges/ar2.png"></div>
+            <p>👉 Smart Board</p>
+            <div id="img2"><img src="imges/w6.jpg"></div>
+            <p>👉 Electric Smart</p>
+            <div id="img2"><img src="imges/w3.jpg"></div>
+            <p>👉 Smart Home</p>
+            <div id="img2"><img src="imges/w4.jpg"></div>
+            <details>
+                <summary>👉 Other Projects ▼</summary>
+                <ol>
+                    <li>Logic <div id="img3"><img src="imges/pic.webp"></div></li>
+                    <li>Raspberry Pi <div id="img3"><img src="imges/pic.webp"></div></li>
+                    <li>Pic <div id="img3"><img src="imges/pic.webp"></div></li>
+                </ol>
+            </details>
+        </div>
     </main>
 
     <footer>
@@ -50,36 +82,18 @@
                 <legend>Contact Us</legend>
                 <center>
                     <p>
-                    <a href="https://www.facebook.com/profile.php?id=61558677549893"><img src="imges/facebook.png" alt="facebook"></a>
-                    <a href="https://www.instagram.com/projexeg00/"><img src="imges/instagram.jpeg" alt="instagram"></a>
-                    <a href="http://wa.me/+201120089033"><img src="imges/whats.png" alt="whats"></a>
-                    <a href="https://github.com/ProjexEg"><img src="imges/github.png" alt="github"></a>
-                    <a href="index.html"><img src="imges/projex_apple.jpeg" alt="projex_apple"></a>
-                    <a href="mailto:+projexeg00@gmail.com"><img src="imges/gmail.png" alt="gmail"></a>
+                    <a href="https://www.facebook.com/profile.php?id=61558677549893" target="_blank"><img src="imges/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/projexeg00/" target="_blank"><img src="imges/instagram.jpeg" alt="instagram"></a>
+                    <a href="http://wa.me/+201120089033" target="_blank"><img src="imges/whats.png" alt="whats"></a>
+                    <a href="https://github.com/ProjexEg" target="_blank"><img src="imges/github.png" alt="github"></a>
+                    <a href="index.html" target="_blank"><img src="imges/projex_apple.jpeg" alt="projex_apple"></a>
+                    <a href="mailto:+projexeg00@gmail.com" target="_blank"><img src="imges/gmail.png" alt="gmail"></a>
                     </p>
                 </center>
             </fieldset>
         </div>
     </footer>
 
-    <script>
-        hamburger = document.querySelector(".hamburger");
-        hamburger.onclick = function(){
-            navBar = document.querySelector(".navbar");
-            navBar.classList.toggle("active");
-        }
-        document.addEventListener("DOMContentLoaded", function() {
-    var contentHeight = document.body.offsetHeight;
-    var windowHeight = window.innerHeight;
-    var footer = document.querySelector('footer');
-
-    if (contentHeight > windowHeight) {
-        footer.style.position = 'static';
-    } else {
-        footer.style.position = 'fixed';
-    }
-});
-
-    </script>
+    <script src="java_scrept/hamburger.js"></script>
 </body>
 </html>

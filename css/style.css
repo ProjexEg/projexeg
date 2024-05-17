@@ -256,3 +256,23 @@ footer div fieldset p a img {
     border-radius: 45px;
     margin: 5px;
 }
+@media screen and (max-width:499px) {
+    footer{
+        display: flex;
+        background-color: rgba(128, 128, 128, 0.274);
+        bottom: 0px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 30px 50px 30px;
+        border-radius: 25px 25px 0px 0px;
+    }
+    footer div{
+        display: inline-block;
+        width: 45%;
+        margin-bottom: 70px;
+    }
+    footer div fieldset{
+        border: 1.5px dotted  #a31775ef;
+        padding: 10px 10px 15px 10px;
+    }
+}

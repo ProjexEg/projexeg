@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="imges/projex_apple.jpeg"/>
     <title>Projex</title>
 </head>
@@ -50,36 +50,18 @@
                 <legend>Contact Us</legend>
                 <center>
                     <p>
-                    <a href="https://www.facebook.com/profile.php?id=61558677549893"><img src="imges/facebook.png" alt="facebook"></a>
-                    <a href="https://www.instagram.com/projexeg00/"><img src="imges/instagram.jpeg" alt="instagram"></a>
-                    <a href="http://wa.me/+201120089033"><img src="imges/whats.png" alt="whats"></a>
-                    <a href="https://github.com/ProjexEg"><img src="imges/github.png" alt="github"></a>
-                    <a href="index.html"><img src="imges/projex_apple.jpeg" alt="projex_apple"></a>
-                    <a href="mailto:+projexeg00@gmail.com"><img src="imges/gmail.png" alt="gmail"></a>
+                    <a href="https://www.facebook.com/profile.php?id=61558677549893" target="_blank"><img src="imges/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/projexeg00/" target="_blank"><img src="imges/instagram.jpeg" alt="instagram"></a>
+                    <a href="http://wa.me/+201120089033" target="_blank"><img src="imges/whats.png" alt="whats"></a>
+                    <a href="https://github.com/ProjexEg" target="_blank"><img src="imges/github.png" alt="github"></a>
+                    <a href="index.html" target="_blank"><img src="imges/projex_apple.jpeg" alt="projex_apple"></a>
+                    <a href="mailto:+projexeg00@gmail.com" target="_blank"><img src="imges/gmail.png" alt="gmail"></a>
                     </p>
                 </center>
             </fieldset>
         </div>
     </footer>
 
-    <script>
-        hamburger = document.querySelector(".hamburger");
-        hamburger.onclick = function(){
-            navBar = document.querySelector(".navbar");
-            navBar.classList.toggle("active");
-        }
-        document.addEventListener("DOMContentLoaded", function() {
-    var contentHeight = document.body.offsetHeight;
-    var windowHeight = window.innerHeight;
-    var footer = document.querySelector('footer');
-
-    if (contentHeight > windowHeight) {
-        footer.style.position = 'static';
-    } else {
-        footer.style.position = 'fixed';
-    }
-});
-
-    </script>
+    <script src="java_scrept/hamburger.js"></script>
 </body>
 </html>
