@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://projexeg.github.io/projexeg/sitemap.xml
