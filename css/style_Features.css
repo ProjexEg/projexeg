@@ -52,3 +52,19 @@ body{
     border-radius: 45px;
 }
 
+@media (max-width: 600px) {
+    #con1{
+        margin: 30% 0% 10% 0%;
+        width: 90%;
+    }
+    #con1 p , #con3 p{
+        font-size: xx-large;
+        font-weight: 900;
+        padding: 20px 80px 20px 80px;
+        color: #fff;
+    }
+    #con2 #img1 img  ,  #con4 #img1 img{
+        width: 20vh;
+        height: 20vh;
+    }
+  }

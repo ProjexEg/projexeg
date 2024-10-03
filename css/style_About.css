@@ -76,3 +76,51 @@ body{
         height: 340vh;
     }
 }
+@media (max-width: 600px) {
+    #con1{
+        margin: 30% 0% 10% 0%;
+        width: 90%;
+    }
+    #con1 p{
+        font-size: xx-large;
+        padding: 20px 50px 20px 50px;
+    }
+    #p{
+        font-size: xx-large;
+        font-weight: 900;
+        padding: 0px 80px 0px 80px;
+        color: #fff;
+        margin-top: -2vh;
+     }
+     #con2{
+        width: 100%;
+        height: 315vh;
+    }
+    #con2 p{
+        font-size: xx-large;
+    }
+    #con2 #img1 img{
+        width: 20vh;
+        height: 20vh;
+    }
+    #con2 #img2 img{
+        width: 20vh;
+        height: 20vh;
+        margin-left: 7%;
+        border-radius: 45px;
+    }
+    #con2 #img3 img{
+        width: 15vh;
+        height: 15vh;
+        margin-left: 18%;
+        border-radius: 30px;
+    }
+    #con2 details{
+        font-size: xx-large;
+    }
+    #con2 details li{
+        margin-left: 50px;
+        font-size: x-large;
+        font-weight: 600;
+    }
+  }

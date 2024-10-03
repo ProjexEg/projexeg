@@ -44,56 +44,6 @@ body{
     cursor:pointer;
       
 }
-@media screen and (min-width:899px) and (max-width:1300px) {
-    .i img{
-        width: 65px;
-        height: 54px;
-        margin: -50% 90% 17vh -2%;
-        cursor: pointer;
-          
-    }
-    .i1 img{
-        width: 65px;
-        height: 54px;
-        margin: -55% 1% 19.5vh 92.5%;
-        cursor:pointer;
-          
-    }
-}
-
-@media screen and (min-width:791px) and (max-width:800px) {
-    .i img{
-        width: 65px;
-        height: 54px;
-        margin: -50% 90% 11vh -2%;
-        cursor: pointer;
-          
-    }
-    .i1 img{
-        width: 65px;
-        height: 54px;
-        margin: -55% 1% 12.5vh 91%;
-        cursor:pointer;
-          
-    }
-}
-
-@media screen and (min-width:500px) and (max-width:790px) {
-    .i img{
-        width: 65px;
-        height: 54px;
-        margin: -50% 90% 21vh -2%;
-        cursor: pointer;
-          
-    }
-    .i1 img{
-        width: 65px;
-        height: 54px;
-        margin: -55% 1% 23.5vh 86%;
-        cursor:pointer;
-          
-    }
-}
 
 #con2{
     width: 100%;
@@ -173,18 +123,73 @@ body{
     font-weight: bold;
     color: #fff;
 }
-@media screen and (max-width:499px) {
+
+
+
+
+
+@media screen and (min-width:899px) and (max-width:1300px) {
     .i img{
         width: 65px;
         height: 54px;
-        margin: -60% 90% 20vh -5%;
+        margin: -50% 90% 17vh -2%;
         cursor: pointer;
           
     }
     .i1 img{
         width: 65px;
         height: 54px;
-        margin: -66% 1% 29vh 81%;
+        margin: -55% 1% 19.5vh 92.5%;
+        cursor:pointer;
+          
+    }
+}
+
+@media screen and (min-width:791px) and (max-width:800px) {
+    .i img{
+        width: 65px;
+        height: 54px;
+        margin: -50% 90% 11vh -2%;
+        cursor: pointer;
+          
+    }
+    .i1 img{
+        width: 65px;
+        height: 54px;
+        margin: -55% 1% 12.5vh 91%;
+        cursor:pointer;
+          
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:790px) {
+    .i img{
+        width: 65px;
+        height: 54px;
+        margin: -50% 90% 21vh -2%;
+        cursor: pointer;
+          
+    }
+    .i1 img{
+        width: 65px;
+        height: 54px;
+        margin: -55% 1% 23.5vh 86%;
+        cursor:pointer;
+          
+    }
+}
+
+@media screen and (max-width:499px) {
+    .i img{
+        width: 65px;
+        height: 54px;
+        margin: -64% 90% 20vh -5%;
+        cursor: pointer;
+    }
+    .i1 img{
+        width: 65px;
+        height: 54px;
+        margin: -74% 1% 29vh 81%;
         cursor:pointer;
           
     }
@@ -200,7 +205,7 @@ body{
         display: block;
     }
     #con3{
-        margin: 80% 0% 10% 0%;
+        margin: 120% 0% 10% 0%;
         display: block;
     }
     #con3 p{
@@ -211,6 +216,6 @@ body{
         margin-bottom: 30px;
     }
     #con4 #img2 img{
-        margin-top: 40px;
+        margin-top: 40%;
     }
 }
